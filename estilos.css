@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+/* barra de navegación */
+.nav{
+    display: flex;
+    background: #33C3D2;
+    border: 1px solid;
+}
+.bar{
+    display: flex;
+}
+.content-nav{
+    font-family: 'Open Sans';
+    font-size: 2.5rem;
+    list-style: none;
+    padding: 1.5rem; padding-top: 2.5rem;
+    text-align: right;
+}
+/* seccion total / total section */
+.total-section{
+    display: flex;
+}
+/* sección de la izquierda / section left*/
+.section-left{
+    display: inline-block;
+    grid-template-columns: repeat(1,1fr);
+    font-family: 'Open Sans';
+    font-size: 2rem;
+    background: #D22222;
+    max-width:200rem;
+    height: 85rem;
+    max-height: 85rem;
+    text-align: center;
+    padding-top: 2rem; padding-bottom: 2rem;
+}
+.tripulation{
+    font-size: 2.5rem;
+}
+.image{
+    text-align: center;
+    padding: 1rem;
+}
+.image-content{
+    width: 60%;
+    max-width: 60%;
+    text-align: center;
+    border-radius: 40%;
+}
+/* seccion principal / main section */
+.main_section{
+    display: inline;
+    background-color: white;
+    font-family: 'Cambria';
+    padding-right: 46%;
+    padding-top: 2rem; padding-left: 2rem;
+    height: 85rem;
+    max-height: 85rem;
+}
+.title{
+    font-size: 3rem;
+}
+.info-anime{
+    font-size: 2rem;
+    max-width: 50rem;
+}
+.wallpaper{
+    padding-top: 3rem;
+}
+.wallpaper-img{
+    max-width: 70rem;
+}
+.referencia{
+    font-size: 2rem;
+    font-style: none;
+}
+/* footer */
+.footer{
+    display: flex;
+    background: #0459B2;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    padding: 1.7rem; padding-left: 60rem;
+    font-size: 1.5rem;
+    color: white;
+}
+.footer-info{
+    font-family: 'Open Sans';
+    font-size: 2rem;
+    padding: 2rem;
+}
